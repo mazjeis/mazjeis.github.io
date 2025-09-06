@@ -2,59 +2,92 @@
     box-sizing: border-box;
 }
 body{
-    margin: 0px;
+    margin: 25px;
+    background-color: white;
+    background-image: url(https://www.wallpaperuse.com/wallp/10-106846_m.jpg);
+    background-size: 100%;
 }
 header{
     text-align: center;
-    background-color: darkblue;
+    background-color: rgb(44, 43, 43);
     padding: 10px;
+    color: rgb(255, 95, 31);
+    border-style: solid;
+    border-color: rgb(255, 95, 31);
+    border-width: 2px;
 }
-
+main{
+    background-color: rgb(44, 43, 43);
+    color: rgb(255, 95, 31);
+}
 
 section{
     float: right;
-    background-color: green;
-    color: black;
-    width: 80%;
-    padding-bottom: 40%;
+    background-color: rgb(44, 43, 43);
+    color: rgb(255, 95, 31);
+    width: 90%;
+    text-align: center;
 }
 /* navbar */
 .navbar ul{
     list-style-type: none;
-    background-color: darkgrey;
+    background-color: rgb(102, 99, 99);
     padding: 0px;
     margin: 0px;
     overflow: hidden;
 }
     
 .navbar a{
-    color: white;
+    color: rgb(255, 95, 31);
     text-decoration: none;
     padding: 15px;
     display: block;
     text-align: center;
 }
 .navbar a:hover{
-   background-color: lightgrey;
+   background-color: rgb(255, 95, 31);
+   color: rgb(102, 99, 99);
 }
 .navbar li{
     float: left;
 }
 .navbar a.current{
-    background-color: black;
+    background-color: rgb(255, 95, 31);
+    color: rgb(102, 99, 99);
 }
 
-aside{
-    width: 20%;
+.aside ul{
+    list-style-type: none;
+    background-color: rgb(44, 43, 43);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    width: 10%;
     float: left;
-    background-color: purple;
-    padding-bottom: 40%;
+    text-align: center;
+    border-style: solid;
+    border-color: rgb(255, 95, 31);
+    border-width: 2px;
+    
 }
+.aside a{
+    text-decoration: none;
+    text-align: left;
+    color: rgb(255, 95, 31);
+    padding: 15px;
+    display: block;
+}
+.aside a:hover{
+   background-color: rgb(255, 95, 31);
+   color: rgb(44, 43, 43);
+}
+
+
 footer{
     display: block;
     clear: both;
     text-align: center;
-    background-color: yellow;
+    background-color: rgb(255, 95, 31);
     padding: 10px;
     margin: 0px;
 }
