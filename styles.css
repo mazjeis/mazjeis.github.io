@@ -40,6 +40,7 @@ section{
 .navbar a{
     color: rgb(255, 95, 31);
     text-decoration: none;
+    font-weight: bold;
     padding: 15px;
     display: block;
     text-align: center;
@@ -90,5 +91,11 @@ footer{
     background-color: rgb(255, 95, 31);
     padding: 10px;
     margin: 0px;
+}
+
+.eigenschappen li{
+    list-style-position: inside;
+    text-align: left;
+    padding-left: 45%;
 }
 
